@@ -1,0 +1,12 @@
+{
+  "name": "Bomberman",
+  "shortDescription": "Place bombs to destroy obstacles and eliminate your opponents. Try not to blow up yourself.",
+  "picturePath": "./man-with-bomb.jpg",
+  "fullDescriptionPath": "game-description.md",
+  "playerCount": {
+    "min": 2,
+    "max": 4
+  },
+  "mapsFolderPath": "./maps",
+  "package-server": "cp ./ai-arena.server.config.json ./ai-arena.config.json && zip bomberman-server server/* common/* CMakeLists.txt ai-arena.config.json && rm ai-arena.config.json"
+}

@@ -1,0 +1,22 @@
+add_executable(
+    server
+    main.cpp
+    Player.cpp
+    Player.h
+    protocol.cpp
+    protocol.h
+    Simulation.cpp
+    Simulation.h
+    ../common/GameState.cpp
+    ../common/GameState.h
+    ../common/Grid.cpp
+    ../common/Grid.h
+    ../common/RandomGenerator.cpp
+    ../common/RandomGenerator.h
+    ../common/ScoreCalculator.cpp
+    ../common/ScoreCalculator.h
+    ../common/positions.cpp
+    ../common/positions.h
+    ../common/utility.cpp
+    ../common/utility.h
+)

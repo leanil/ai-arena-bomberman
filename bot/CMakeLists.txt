@@ -1,0 +1,32 @@
+add_executable(
+        bot
+        connector.h
+        console_connector.h
+        main.cpp
+        platform_dep.h
+        socket_connector.h
+        solver.cpp
+        solver.h
+        AI.cpp
+        AI.h
+        Backtrack.cpp
+        Backtrack.h
+        Objective.cpp
+        Objective.h
+        PathFinder.cpp
+        PathFinder.h
+        SafetyChecker.cpp
+        SafetyChecker.h
+    ../common/GameState.cpp
+    ../common/GameState.h
+    ../common/Grid.cpp
+    ../common/Grid.h
+    ../common/ScoreCalculator.cpp
+    ../common/ScoreCalculator.h
+    ../common/RandomGenerator.cpp
+    ../common/RandomGenerator.h
+    ../common/positions.cpp
+    ../common/positions.h
+    ../common/utility.cpp
+    ../common/utility.h
+)

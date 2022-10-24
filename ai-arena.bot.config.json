@@ -1,0 +1,5 @@
+{
+  "build": "cmake -DCMAKE_BUILD_TYPE=Release -BRelease . && cmake --build Release -j 8",
+  "programPath": "Release/bot/bot",
+  "run": "%program console"
+}

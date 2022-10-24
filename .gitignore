@@ -1,0 +1,12 @@
+logs
+Debug
+Release
+build
+
+.vscode
+.idea
+
+player*.in
+player*.out
+player*.log
+server.log

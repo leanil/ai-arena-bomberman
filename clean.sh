@@ -1,0 +1,1 @@
+rm -rf player*.in player*.in.log player*.out
