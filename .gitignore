@@ -10,3 +10,6 @@ player*.in
 player*.out
 player*.log
 server.log
+
+bomberman-server.zip
+bomberman-bot.zip
